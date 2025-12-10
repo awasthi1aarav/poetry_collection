@@ -1,0 +1,107 @@
+/* --- Mountain Serenity Theme: White, Charcoal, Alpine Blue --- */
+
+/* General Body Styles */
+body {
+    /* Clean, modern, safe font for mountain lines */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    
+    /* Off-White/Snow Background */
+    background-color: #f8f8f8; 
+    
+    /* Deep Charcoal Text (Rock/Stone) */
+    color: #4c4c4c; 
+    
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header Styling (The Sky/Horizon) */
+.site-header {
+    /* Alpine Blue/Gray Sky */
+    background-color: #aebcc5; 
+    /* Deep Charcoal for Header Text */
+    color: #2c3e50; 
+    padding: 40px 0;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle definition */
+}
+
+.site-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+.site-header h2, .author {
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+/* Links Styling (Clear Sky Blue Accent) */
+a {
+    color: #3498db; /* Clear Sky Blue */
+    text-decoration: none; 
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #2980b9; /* Deeper Sky Blue on hover */
+    text-decoration: underline; 
+}
+
+/* Poem List and Individual Poem Styling (The Snow Sheet) */
+.poem-list, .poem-content {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 30px;
+    /* Pure White background for crisp readability */
+    background-color: #ffffff; 
+    border-radius: 8px;
+    /* Light shadow to lift the poem off the background */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.08); 
+    text-align: left; /* Keep poem text justified/left-aligned */
+}
+
+/* Styling for the Poem List in index.html */
+.poem-list h3 {
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 0;
+}
+
+.poem-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.poem-list li {
+    margin: 15px 0;
+    font-size: 1.2em;
+    padding-left: 10px;
+    border-left: 3px solid #aebcc5; /* Subtle blue line indicator */
+}
+
+/* Styling for the actual poem text */
+.poem-content pre {
+    white-space: pre-wrap; /* Ensures the poetry wraps correctly on small screens */
+    font-family: inherit; /* Use the main body font */
+    font-size: 1.15em;
+    line-height: 1.8;
+    margin: 30px 0;
+    text-align: center; /* Center the poem lines */
+}
+
+.back-link {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
+
+/* Footer Styling */
+.site-footer {
+    padding: 20px 0;
+    margin-top: 50px;
+    font-size: 0.8em;
+    color: #999;
+}
